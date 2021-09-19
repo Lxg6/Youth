@@ -24,6 +24,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行【中青看看赚】'     
+      - name: '运行【中青看看赚】'
+        if: env.YOUTH_START     
         run: |
           node youth_gain.js
