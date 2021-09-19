@@ -19,7 +19,7 @@ https:\/\/kandian\.wkandian\.com\/v5\/Nameless\/adlickstart\.json url script-req
 const $ = new Env("中青看点浏览赚&看看赚")
 //const notify = $.isNode() ? require('./sendNotify') : '';
 let startArr = [], lookArr=[];
-let gainscore = 0, lookscore = 0;
+let gainscore = 0, lookscore = 1;
 let StartBody = [],LookBody = [];
 let startbodys = $.getdata('youth_start');
 let lookbodys = $.getdata('youth_look')
